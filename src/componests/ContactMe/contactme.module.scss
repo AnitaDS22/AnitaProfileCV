@@ -1,0 +1,51 @@
+.contactMePage {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide el contenedor en dos columnas de igual ancho */
+    gap: 20px; /* Espacio entre las columnas */
+}
+
+  
+  .leftArea {
+    padding: 20px; /* Espacio alrededor del contenido */
+    background-color: #f0f0f0; /* Color de fondo */
+
+    .contactoPequeno {
+        font-size: 18px;
+    }
+
+}
+
+  .rightArea {
+    padding: 20px; /* Espacio alrededor del contenido */
+    background-color: #f5c8a6;; /* Color de fondo */
+    font-size: 12px;
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+
+.contactMePage{
+display: grid;
+grid-template-columns: auto;
+
+}
+
+.leftArea {
+  padding: 15px; /* Espacio alrededor del contenido */
+  background-color: #f0f0f0; /* Color de fondo */
+
+  .contactoPequeno {
+      font-size: 12px;
+  }
+
+}
+
+
+.rightArea {
+  padding: 15px; /* Espacio alrededor del contenido */
+  background-color: #f5c8a6;; /* Color de fondo */
+  font-size: 8px;
+}
+
+  }

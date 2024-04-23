@@ -1,0 +1,54 @@
+body {
+margin: 0;
+padding: 0;
+
+}
+
+
+.divPrincipal {
+   padding: 2rem;
+}
+
+a {
+text-decoration: none;
+
+}
+
+.nombre {
+display: flex;
+justify-content:center;
+color: rgb(216, 119, 119);
+   font-family: poppins;
+   font-size: 100px;
+   font-weight: 700;
+   grid-area: auto;
+   letter-spacing: 2px;
+   text-shadow: #000000 1px 3px 11px;
+   text-decoration: none;
+  
+
+}
+
+@media only screen and (max-width: 600px) {
+   .divPrincipal {
+     padding: 1rem; /* Reduce el padding en dispositivos móviles */
+   }
+ 
+   .nombre {
+     font-size: 50px; /* Reduce el tamaño del texto en dispositivos móviles */
+   }
+ }
+
+
+
+   
+
+
+
+   
+
+   
+
+   
+
+
